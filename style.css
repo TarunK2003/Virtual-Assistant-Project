@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: monument;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main img{
+    height: 90%;
+    width: fit-content;
+    margin-top: -150px;
+}
+#main h1{
+    margin-top: -200px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-stretch: 5rem;
+    padding: 50px 80px;
+}
+#main span{
+    color: red;
+    font-size: 2.9rem;
+}
+#main span:hover{
+    background-color: yellow;
+    box-shadow: 10px 5px 40px yellow;
+    transition: 0.5s ease-out;
+}
+#main #virtual{
+    color: yellow;
+    font-size: 1.8rem;
+}
+#main #virtual:hover{
+    color: red;
+}
+#siri{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+/*    background-color: red;*/
+    margin-top: 40%;
+    
+}
+#siri img{
+    height: 50%;
+    width: fit-content;
+    padding-top: 15%;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main button{
+    position: absolute;
+    padding: 10px 20px;
+    margin-top: 20%;
+    font-size: 1.8rem;
+    border: 0;
+    border-radius: 10px;
+    left: 30%;
+    background: linear-gradient( rgb(184, 45, 68), blue);
+    
+}
+#main button:hover{
+    box-shadow: 10px 5px 40px yellow;
+    transition: 0.5s ease-out;
+}
+#main button i{
+    background: 0;
+    margin: 0px 10px;
+}
+button #content{
+    color: white;
+    background: none;
+    font-size: 2rem;
+}
+#content:hover{
+    background-color:  rgb(184, 45, 68), blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
